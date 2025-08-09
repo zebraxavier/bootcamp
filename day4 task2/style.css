@@ -4,7 +4,7 @@
   justify-content: space-around;
   align-content: center;
   width: 90%;
-  margin: auto;
+  margin: 8px 8px;
   padding: 20px;
 }
 
@@ -24,15 +24,15 @@
   flex-shrink: 1;
 }
 
-.product-card:nth-child(2) {
-  flex-grow: 2;
+/* .product-card:nth-child(3) {
+  flex-grow: 1;
   order: -1;
 }
 
-.product-card:nth-child(4) {
+.product-card:nth-child(2) {
   flex-shrink: 2;
   align-self: flex-end;
-}
+} */
 
 .product-card img {
   width: 100%;
