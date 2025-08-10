@@ -1,0 +1,186 @@
+/* ====== Reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fff;
+  border: 5px solid #04eef1;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+/* ====== Header ====== */
+header {
+  background-color: lightgrey;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  height: 60px;
+  margin: auto;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0ea5e9;
+}
+header nav {
+  margin-top: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #0ea5e9;
+  font-weight: 500;
+  margin-top: 0;
+  padding: 5px 10px;
+}
+
+/* ====== Main Container ====== */
+.container {
+  width: 1080px;
+  max-width: 40%;
+  margin-left: 20%;
+  display: inline;
+  float: left;
+}
+
+/* ====== Post Title ====== */
+.post-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0ea5e9;
+  margin-bottom: 10px;
+}
+
+/* ====== Post Meta ====== */
+.post-meta {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.post-meta img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.post-meta .tag {
+  background: #fde047;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-left: auto;
+}
+
+/* ====== Featured Image ====== */
+.featured-image img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* ====== Content ====== */
+h2 {
+  color: #0ea5e9;
+  margin: 20px 0 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* ul li {
+  margin-bottom: 5px;
+} */
+
+/* ====== Sidebar ====== */
+.sidebar {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  background-color: lightgrey;
+  width: 400px;
+  min-height: 500px;
+  border: 5px solid #04eef1;
+  border-left: 0;
+  border-right: 0;
+  padding: 24px 32px;
+  margin-top: 100px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  float: auto;
+  /* display: inline-block; */
+}
+
+.sidebar h3 {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* .sidebar .related-post {
+  display: flex;
+  /* align-items: center; */
+/* margin-bottom: 12px;
+}
+
+.sidebar .related-post img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.sidebar .related-post a {
+  font-size: 14px;
+  color: #0ea5e9;
+  text-decoration: none;
+
+  font-family: Arial, Helvetica, sans-serif;
+} */
+*/
+
+/* ====== Footer ====== */
+ footer {
+  /* text-align: center; */
+  font-size: 12px;
+  color: #555;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  margin-top: 100%;
+  /* margin-left: 20px;
+  float: top 100%; */
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+button {
+  /* margin-right: 10px; */
+  position: static;
+  margin-bottom: 10px;
+  margin-left: 95%;
+  /* margin-top: auto; */
+}
