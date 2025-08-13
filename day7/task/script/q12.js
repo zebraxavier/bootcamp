@@ -22,17 +22,21 @@
  	1 *
  	
 	 */
-let numbers = prompt("Enter 5 Numbers in a same line (between 1 and 30):")
-  .split(" ")
-  .map(Number);
-if (numbers.length !== 5 || numbers.some((num) => num < 1 || num > 30)) {
-  console.error("Please enter exactly 5 numbers, each between 1 and 30.");
-}
+// Read 5 numbers from user in the same line
+let input = prompt(
+  "Enter 5 numbers (each between 1 and 30) separated by spaces:"
+);
+
+// Convert input string to an array of numbers
+let numbers = input.split(" ").map(Number);
+
+// Loop through each number
 for (let i = 0; i < numbers.length; i++) {
-  let num = numbers[i];
   let stars = "";
-  for (let j = 0; j < num; j++) {
+  // Inner loop to add asterisks
+  for (let j = 0; j < numbers[i]; j++) {
     stars += "*";
-  }    console.log(`${num} `) console.log(`${stars}`);
+  }
+  // Print number and its stars
+  console.log(`${numbers[i]}  ${stars}`);
 }
-// console.log(`(${numbers.join(" + ")} = ${numbers.reduce((a, b) => a + b, 0)})`);
