@@ -1,0 +1,28 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1a202c; /* Dark background */
+}
+.dice-image {
+  width: 120px;
+  height: 120px;
+}
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #4f46e5 0%,
+    #7c3aed 51%,
+    #4f46e5 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+.btn:hover {
+  background-position: right center; /* change the direction of the change */
+  color: #fff;
+  text-decoration: none;
+}
